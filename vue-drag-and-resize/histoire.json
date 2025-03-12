@@ -1,0 +1,181 @@
+{
+  "stories": [
+    {
+      "id": "src-stories-basic-story-vue",
+      "title": "Basic component",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/Basic.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Basic component"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-dragdirections-story-vue",
+      "title": "Drag Directions",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/DragDirections.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Drag Directions"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-draggable-story-vue",
+      "title": "Draggable",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/Draggable.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Draggable"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-dragon-story-vue",
+      "title": "Drag On",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/DragOn.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Drag On"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-gutters-story-vue",
+      "title": "Gutters",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/Gutters.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Gutters"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-position-story-vue",
+      "title": "Position",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/Position.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Position"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-resizable-story-vue",
+      "title": "Resizable",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/Resizable.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Resizable"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-resizedirections-story-vue",
+      "title": "Resize Direction",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/ResizeDirections.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Resize Direction"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    }
+  ],
+  "markdownFiles": []
+}
