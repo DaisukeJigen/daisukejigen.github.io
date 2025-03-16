@@ -1,8 +1,8 @@
 {
   "stories": [
     {
-      "id": "src-stories-basic-story-vue",
-      "title": "Basic component",
+      "id": "src-stories-events-dragging-story-vue",
+      "title": "Dragging",
       "layout": {
         "type": "single",
         "iframe": true
@@ -14,16 +14,82 @@
           "title": "default"
         }
       ],
-      "relativePath": "src/stories/Basic.story.vue",
+      "relativePath": "src/stories/events/Dragging.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
-        "Basic component"
+        "Dragging"
       ],
       "virtual": false,
       "markdownFile": null
     },
     {
-      "id": "src-stories-dragdirections-story-vue",
+      "id": "src-stories-events-resizing-story-vue",
+      "title": "Resizing",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/events/Resizing.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Resizing"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-expose-boundries-story-vue",
+      "title": "Boundries",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/expose/Boundries.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Boundries"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-expose-corners-story-vue",
+      "title": "Corners",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/expose/Corners.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Corners"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-props-dragdirections-story-vue",
       "title": "Drag Directions",
       "layout": {
         "type": "single",
@@ -36,7 +102,7 @@
           "title": "default"
         }
       ],
-      "relativePath": "src/stories/DragDirections.story.vue",
+      "relativePath": "src/stories/props/DragDirections.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
         "Drag Directions"
@@ -45,7 +111,7 @@
       "markdownFile": null
     },
     {
-      "id": "src-stories-draggable-story-vue",
+      "id": "src-stories-props-draggable-story-vue",
       "title": "Draggable",
       "layout": {
         "type": "single",
@@ -58,7 +124,7 @@
           "title": "default"
         }
       ],
-      "relativePath": "src/stories/Draggable.story.vue",
+      "relativePath": "src/stories/props/Draggable.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
         "Draggable"
@@ -67,7 +133,7 @@
       "markdownFile": null
     },
     {
-      "id": "src-stories-dragon-story-vue",
+      "id": "src-stories-props-dragon-story-vue",
       "title": "Drag On",
       "layout": {
         "type": "single",
@@ -80,7 +146,7 @@
           "title": "default"
         }
       ],
-      "relativePath": "src/stories/DragOn.story.vue",
+      "relativePath": "src/stories/props/DragOn.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
         "Drag On"
@@ -89,7 +155,7 @@
       "markdownFile": null
     },
     {
-      "id": "src-stories-gutters-story-vue",
+      "id": "src-stories-props-gutters-story-vue",
       "title": "Gutters",
       "layout": {
         "type": "single",
@@ -102,7 +168,7 @@
           "title": "default"
         }
       ],
-      "relativePath": "src/stories/Gutters.story.vue",
+      "relativePath": "src/stories/props/Gutters.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
         "Gutters"
@@ -111,7 +177,7 @@
       "markdownFile": null
     },
     {
-      "id": "src-stories-position-story-vue",
+      "id": "src-stories-props-position-story-vue",
       "title": "Position",
       "layout": {
         "type": "single",
@@ -124,7 +190,7 @@
           "title": "default"
         }
       ],
-      "relativePath": "src/stories/Position.story.vue",
+      "relativePath": "src/stories/props/Position.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
         "Position"
@@ -133,7 +199,7 @@
       "markdownFile": null
     },
     {
-      "id": "src-stories-resizable-story-vue",
+      "id": "src-stories-props-resizable-story-vue",
       "title": "Resizable",
       "layout": {
         "type": "single",
@@ -146,7 +212,7 @@
           "title": "default"
         }
       ],
-      "relativePath": "src/stories/Resizable.story.vue",
+      "relativePath": "src/stories/props/Resizable.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
         "Resizable"
@@ -155,7 +221,7 @@
       "markdownFile": null
     },
     {
-      "id": "src-stories-resizedirections-story-vue",
+      "id": "src-stories-props-resizedirections-story-vue",
       "title": "Resize Direction",
       "layout": {
         "type": "single",
@@ -168,10 +234,54 @@
           "title": "default"
         }
       ],
-      "relativePath": "src/stories/ResizeDirections.story.vue",
+      "relativePath": "src/stories/props/ResizeDirections.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
         "Resize Direction"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-basic-basic-story-vue",
+      "title": "Basic component",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/basic/Basic.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Basic component"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-basic-nested-story-vue",
+      "title": "Nested components",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/basic/Nested.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Nested components"
       ],
       "virtual": false,
       "markdownFile": null
