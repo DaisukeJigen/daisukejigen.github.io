@@ -2985,6 +2985,13 @@ body {
   cursor: nesw-resize;
 }#main {
   border: 2px solid red;
+}#parent {
+  border: 2px solid red;
+}
+#child {
+  border: 2px solid blue;
+}#main {
+  border: 2px solid red;
 }#main {
   border: 2px solid red;
 }#parent {
@@ -3017,11 +3024,4 @@ body {
   border: 2px solid red;
 }#main {
   border: 2px solid red;
-}#main {
-  border: 2px solid red;
-}#parent {
-  border: 2px solid red;
-}
-#child {
-  border: 2px solid blue;
 }

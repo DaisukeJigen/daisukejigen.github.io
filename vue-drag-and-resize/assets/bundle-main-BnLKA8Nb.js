@@ -1,8 +1,8 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/SearchPane.vue-BNEwqOTY.js","assets/vendor-DmWNUJbz.js","assets/story-D8fax1Wt.js","assets/mapping-DDE6fqGp.js","assets/BaseEmpty.vue-BEydbYdL.js","assets/responsive-pXb6VTpL.js"])))=>i.map(i=>d[i]);
-import { u as useEventListener, i as isRef, d as defineComponent, c as computed, a as createElementBlock, o as openBlock, r as resolveDirective, b as createBaseVNode, e as unref, f as createVNode, w as withDirectives, g as createCommentVNode, I as Icon, h as defineStore, j as useStorage, k as watch, l as useCssVars, m as useRoute, n as ref, p as withCtx, q as normalizeClass, t as toDisplayString, s as resolveComponent, v as withKeys, F as Fragment, x as renderList, y as createBlock, z as createTextVNode, A as reactive, B as normalizeStyle, T as Transition, C as vShow, D as defineAsyncComponent, _ as __vitePreload, E as useTitle, G as onMounted, H as createApp, J as createPinia, K as Gt } from "./vendor-DmWNUJbz.js";
-import { i as isDark, c as customLogos, h as histoireConfig, t as toggleDark, r as router, f as files, m as mapFile, _ as _sfc_main$c, a as tree } from "./mapping-DDE6fqGp.js";
-import { u as useStoryStore } from "./story-D8fax1Wt.js";
-import { u as useScrollOnActive, B as BaseListItemLink, _ as _export_sfc, a as _sfc_main$b, i as isMobile, b as BaseSplitPane } from "./responsive-pXb6VTpL.js";
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/SearchPane.vue-B26Qebkz.js","assets/vendor-CflhQFKT.js","assets/story-D7kfyHcQ.js","assets/mapping-CXTfnou5.js","assets/BaseEmpty.vue-C1mAPjvc.js","assets/responsive-DZMerB5r.js"])))=>i.map(i=>d[i]);
+import { u as useEventListener, i as isRef, d as defineComponent, c as computed, a as createElementBlock, o as openBlock, r as resolveDirective, b as createBaseVNode, e as unref, f as createVNode, w as withDirectives, g as createCommentVNode, I as Icon, h as defineStore, j as useStorage, k as watch, l as useCssVars, m as useRoute, n as ref, p as withCtx, q as normalizeClass, t as toDisplayString, s as resolveComponent, v as withKeys, F as Fragment, x as renderList, y as createBlock, z as createTextVNode, A as reactive, B as normalizeStyle, T as Transition, C as vShow, D as defineAsyncComponent, _ as __vitePreload, E as useTitle, G as onMounted, H as createApp, J as createPinia, K as Gt } from "./vendor-CflhQFKT.js";
+import { i as isDark, c as customLogos, h as histoireConfig, t as toggleDark, r as router, f as files, m as mapFile, _ as _sfc_main$c, a as tree } from "./mapping-CXTfnou5.js";
+import { u as useStoryStore } from "./story-D7kfyHcQ.js";
+import { u as useScrollOnActive, B as BaseListItemLink, _ as _export_sfc, a as _sfc_main$b, i as isMobile, b as BaseSplitPane } from "./responsive-DZMerB5r.js";
 const isMac = navigator.platform.toLowerCase().includes("mac");
 function onKeyboardShortcut(shortcut, handler, options = {}) {
   useEventListener(options.event ?? "keydown", (event) => {
@@ -644,7 +644,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
   },
   setup(__props, { emit: __emit }) {
     const SearchPane = defineAsyncComponent({
-      loader: () => __vitePreload(() => import("./SearchPane.vue-BNEwqOTY.js"), true ? __vite__mapDeps([0,1,2,3,4,5]) : void 0),
+      loader: () => __vitePreload(() => import("./SearchPane.vue-B26Qebkz.js"), true ? __vite__mapDeps([0,1,2,3,4,5]) : void 0),
       loadingComponent: _sfc_main$2,
       delay: 0
     });

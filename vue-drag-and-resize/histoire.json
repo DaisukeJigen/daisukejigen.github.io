@@ -1,6 +1,50 @@
 {
   "stories": [
     {
+      "id": "src-stories-basic-basic-story-vue",
+      "title": "Basic component",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/basic/Basic.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Basic component"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-basic-nested-story-vue",
+      "title": "Nested components",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/basic/Nested.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Nested components"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
       "id": "src-stories-events-dragging-story-vue",
       "title": "Dragging",
       "layout": {
@@ -238,50 +282,6 @@
       "supportPluginId": "vue3",
       "treePath": [
         "Resize Direction"
-      ],
-      "virtual": false,
-      "markdownFile": null
-    },
-    {
-      "id": "src-stories-basic-basic-story-vue",
-      "title": "Basic component",
-      "layout": {
-        "type": "single",
-        "iframe": true
-      },
-      "docsOnly": false,
-      "variants": [
-        {
-          "id": "_default",
-          "title": "default"
-        }
-      ],
-      "relativePath": "src/stories/basic/Basic.story.vue",
-      "supportPluginId": "vue3",
-      "treePath": [
-        "Basic component"
-      ],
-      "virtual": false,
-      "markdownFile": null
-    },
-    {
-      "id": "src-stories-basic-nested-story-vue",
-      "title": "Nested components",
-      "layout": {
-        "type": "single",
-        "iframe": true
-      },
-      "docsOnly": false,
-      "variants": [
-        {
-          "id": "_default",
-          "title": "default"
-        }
-      ],
-      "relativePath": "src/stories/basic/Nested.story.vue",
-      "supportPluginId": "vue3",
-      "treePath": [
-        "Nested components"
       ],
       "virtual": false,
       "markdownFile": null

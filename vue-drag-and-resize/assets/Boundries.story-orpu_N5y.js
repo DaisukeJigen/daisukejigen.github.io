@@ -1,5 +1,5 @@
-import { ap as defineComponent, aq as resolveComponent, ar as createBlock, at as withCtx, ay as computed, ax as ref, as as openBlock, au as createVNode, av as createBaseVNode, az as createTextVNode, aw as toDisplayString } from "./vendor-DmWNUJbz.js";
-import { _ as _export_sfc, D as DragAndResize } from "./DragAndResize-CvzrV0pl.js";
+import { ap as defineComponent, aq as resolveComponent, ar as createBlock, at as withCtx, ay as computed, aw as ref, as as openBlock, au as createVNode, av as createBaseVNode, az as createTextVNode, ax as toDisplayString } from "./vendor-CflhQFKT.js";
+import { _ as _export_sfc, D as DragAndResize } from "./DragAndResize-9ag_pOVF.js";
 const block0 = (Comp) => {
   Comp.doc = '<h2 id="basic-component" tabindex="-1">Basic component <a class="header-anchor" href="#basic-component" aria-hidden="true">#</a></h2>\n';
 };

@@ -1,5 +1,5 @@
-import { b as clientSupportPlugins, h as histoireConfig } from "./mapping-DDE6fqGp.js";
-import { d as defineComponent, n as ref, V as watchEffect, W as markRaw, y as createBlock, g as createCommentVNode, o as openBlock, X as mergeProps, Y as resolveDynamicComponent, A as reactive, i as isRef, e as unref } from "./vendor-DmWNUJbz.js";
+import { b as clientSupportPlugins, h as histoireConfig } from "./mapping-CXTfnou5.js";
+import { d as defineComponent, n as ref, V as watchEffect, W as markRaw, y as createBlock, g as createCommentVNode, o as openBlock, X as mergeProps, Y as resolveDynamicComponent, A as reactive, i as isRef, e as unref } from "./vendor-CflhQFKT.js";
 const __default__ = {
   inheritAttrs: false
 };
