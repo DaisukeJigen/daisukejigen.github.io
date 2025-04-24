@@ -2,7 +2,7 @@
   "stories": [
     {
       "id": "src-stories-basic-basic-story-vue",
-      "title": "Basic component",
+      "title": "Basic Component",
       "layout": {
         "type": "single",
         "iframe": true
@@ -17,14 +17,36 @@
       "relativePath": "src/stories/basic/Basic.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
-        "Basic component"
+        "Basic Component"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-basic-multiple-story-vue",
+      "title": "Multiple Components",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/basic/Multiple.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Multiple Components"
       ],
       "virtual": false,
       "markdownFile": null
     },
     {
       "id": "src-stories-basic-nested-story-vue",
-      "title": "Nested components",
+      "title": "Nested Components",
       "layout": {
         "type": "single",
         "iframe": true
@@ -39,7 +61,7 @@
       "relativePath": "src/stories/basic/Nested.story.vue",
       "supportPluginId": "vue3",
       "treePath": [
-        "Nested components"
+        "Nested Components"
       ],
       "virtual": false,
       "markdownFile": null
@@ -128,6 +150,28 @@
       "supportPluginId": "vue3",
       "treePath": [
         "Corners"
+      ],
+      "virtual": false,
+      "markdownFile": null
+    },
+    {
+      "id": "src-stories-props-alwaysontop-story-vue",
+      "title": "Always On Top",
+      "layout": {
+        "type": "single",
+        "iframe": true
+      },
+      "docsOnly": false,
+      "variants": [
+        {
+          "id": "_default",
+          "title": "default"
+        }
+      ],
+      "relativePath": "src/stories/props/AlwaysOnTop.story.vue",
+      "supportPluginId": "vue3",
+      "treePath": [
+        "Always On Top"
       ],
       "virtual": false,
       "markdownFile": null
